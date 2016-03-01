@@ -3,7 +3,7 @@ import java.awt.*;
 /**
  * Created by vathsala on 29/02/16.
  */
-public class One extends Place{
+public class One extends Place implements Locate{
 
     public boolean isMatch(Button[] buttons, int placeValue) {
         boolean match1 = this.DoubleIncrementCheck(buttons,placeValue,3);

@@ -5,6 +5,7 @@ import java.awt.*;
  */
 public class Place {
     public void place(Button button, String value){
+        System.out.println(value);
         button.setLabel(value);
     }
 
